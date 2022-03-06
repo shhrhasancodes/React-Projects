@@ -1,0 +1,51 @@
+.font {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.style {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.heading {
+  font-family: monospace;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.answers {
+  margin-top: 20px;
+}
+
+.answerList {
+  margin-top: 50px;
+}
+
+.scoreArea {
+  position: absolute;
+  bottom: 0px;
+  background-color: aliceblue;
+  width: 100%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2.correct {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0.3em;
+}
+
+h2.incorrect {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1em;
+}
+
+.fail {
+  margin-top: 90px;
+}
+
+.success {
+  margin-top: 90px;
+}
