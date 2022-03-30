@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&display=swap");
+
+body {
+  background-color: rgb(223, 239, 253) !important;
+}
+
+.body {
+  font-family: "Fredoka", sans-serif;
+}
+
+.widgetWrap {
+  background-color: rgb(177, 217, 255);
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+  width: 200px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.widgetTitle {
+  font-weight: bold;
+}
+
+.value {
+  font-size: 50px;
+  color: rgb(69, 216, 69);
+}
+
+.Navbar {
+  background-color: white;
+  padding: 15px;
+  width: 100%;
+}
+
+.row {
+  padding-top: 30px;
+}
+
+.col {
+  padding-top: 10px;
+}
+
+.dropdown {
+  width: 200px;
+  border-radius: 5px;
+  float: right;
+  margin-top: -40px;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards {
+    margin-bottom: 15px;
+  }
+
+  .last {
+    margin-bottom: 20px;
+  }
+
+  .dropdown {
+    width: 150px;
+  }
+
+  .widgetTitle {
+    text-align: center;
+  }
+
+  .value {
+    text-align: center;
+  }
+}
